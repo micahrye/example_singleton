@@ -1,21 +1,8 @@
 # Singleton
 
-**TODO: Add description**
+This repo was made to compair to approaches to writing a singleton GenServer
+timer. The S1 singleton is based on code I saw from someone else and it did
+not seem idomatic to me. 
 
-## Installation
-
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `singleton` to your list of dependencies in `mix.exs`:
-
-```elixir
-def deps do
-  [
-    {:singleton, "~> 0.1.0"}
-  ]
-end
-```
-
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at [https://hexdocs.pm/singleton](https://hexdocs.pm/singleton).
+S2 was writen to see what approach I would do and look at the differneces.
 
