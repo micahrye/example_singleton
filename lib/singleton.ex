@@ -24,6 +24,9 @@ defmodule Singleton do
   def s2_start do
     # Start the Singleton process if not already started
     case Singleton.S2.start_link() do
+      {:ok, _pid} ->
+        Singleton.S2.start_timer()
+
       %{msg: _msg, timer_pid: _timer_pid} ->
         Singleton.S2.start_timer()
 
